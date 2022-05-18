@@ -17,7 +17,7 @@ Open the Package Manager Console, change the directory to '\GameBettingAPI' and 
 
 Then, Run the 'GameBettingAPI' and you should be seeing the Swagger UI:
 
-![Swagger UI](.SwaggerUI.PNG)
+![Swagger UI](SwaggerUI.PNG)
 
 
 ## Usage
