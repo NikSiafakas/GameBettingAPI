@@ -13,9 +13,10 @@ Use git to clone the repository and open it with Visual Studio.
 
 Modify the "GameBetSqlDbConnectionString" in the appsettings.json file to select a server (changing the 'my_server' value to your server name) and Build the solution.
 
-Open the Package Manager Console, change the directory to '\GameBettingAPI' and execute 'dotnet ef database update' to create the database.
+Open the Package Manager Console and install Entity Framework by executing 'dotnet tool install --global dotnet-ef'.
+Then, change the directory to '\GameBettingAPI' and execute 'dotnet ef database update' to create the database.
 
-Then, Run the 'GameBettingAPI' and you should be seeing the Swagger UI:
+By running the 'GameBettingAPI' and you should be seeing the Swagger UI:
 
 ![Swagger UI](SwaggerUI.PNG)
 
